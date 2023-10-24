@@ -1,0 +1,311 @@
+body {
+  background-color: #FAF8F1;
+}
+
+div {
+  border: 0;
+  color: #C58940;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+  width: 50em;
+}
+
+.div01 {
+  background-color: #C58940;
+  text-align: center;
+}
+
+.div02 {
+  text-align: center;
+}
+
+a {
+  color: #C58940;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.a01 {
+  color: #FAF8F1;
+  margin: 0 .25em;
+}
+
+h1 {
+  display: inline;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: normal;
+  text-align: center;
+}
+
+h3 {
+  display: block;
+  font-size: 1em;
+  font-weight: normal;
+  text-align: center;
+}
+
+p {
+  display: block;
+  font-size: 1em;
+  font-weight: normal;
+  text-align: justify;
+}
+
+h4 {
+  display: block;
+  font-size: .5em;
+  font-weight: normal;
+  text-align: center;
+}
+
+li {
+  font-size: 1em;
+  text-align: left;
+}
+
+img {
+  vertical-align: top;
+}
+
+.img01 {
+  float: left;
+  height: 5em;
+  margin-right: .25em;
+}
+
+.img02 {
+  float: right;
+  height: 5em;
+  margin-left: .25em;
+}
+
+.img03 {
+  height: 1em;
+}
+
+.img04 {
+  display: inline-block;
+  width: 24em;
+}
+
+.img05 {
+  height: 1em;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    background-color: #FAF8F1;
+  }
+
+  div {
+    border: 0;
+    color: #C58940;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    width: 95%;
+  }
+
+  .div01 {
+    background-color: #C58940;
+    text-align: center;
+    width: 100%;
+  }
+
+  .div02 {
+    text-align: center;
+    width: 100%;
+  }
+
+  a {
+    color: #C58940;
+    font-size: 2em;
+    text-decoration: none;
+  }
+
+  .a01 {
+    color: #FAF8F1;
+    margin: 0 .5em;
+  }
+
+  h1 {
+    display: inline;
+    font-size: 2em;
+    font-weight: normal;
+  }
+
+  h2 {
+    display: block;
+    font-size: 3em;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  h3 {
+    display: block;
+    font-size: 2em;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  p {
+    display: block;
+    font-size: 2em;
+    font-weight: normal;
+    text-align: justify;
+  }
+
+  h4 {
+    display: block;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  li {
+    font-size: 2em;
+    text-align: left;
+  }
+
+  img {
+    vertical-align: top;
+  }
+
+  .img01 {
+    float: left;
+    height: 10em;
+    margin-right: .5em;
+  }
+
+  .img02 {
+    float: right;
+    height: 10em;
+    margin-left: .5em;
+  }
+
+  .img03 {
+    height: 2em;
+  }
+
+  .img04 {
+    display: inline-block;
+    width: 95%;
+  }
+
+  .img05 {
+    height: 2em;
+  }
+}
+
+@media print {
+  body {
+    background-color: #FAF8F1;
+  }
+
+  div {
+    border: 0;
+    color: #C58940;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    width: 50em;
+  }
+
+  .div01 {
+    background-color: #C58940;
+    text-align: center;
+  }
+
+  .div02 {
+    text-align: center;
+  }
+
+  a {
+    color: #C58940;
+    font-size: 1em;
+    text-decoration: none;
+  }
+
+  .a01 {
+    color: #FAF8F1;
+    margin: 0 .25em;
+  }
+
+  h1 {
+    display: inline;
+    font-size: 1em;
+    font-weight: normal;
+  }
+
+  h2 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  h3 {
+    display: block;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  p {
+    display: block;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: justify;
+  }
+
+  h4 {
+    display: block;
+    font-size: .5em;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  li {
+    font-size: 1em;
+    text-align: left;
+  }
+
+  img {
+    vertical-align: top;
+  }
+
+  .img01 {
+    float: left;
+    height: 5em;
+    margin-right: .25em;
+  }
+
+  .img02 {
+    float: right;
+    height: 5em;
+    margin-left: .25em;
+  }
+
+  .img03 {
+    height: 1em;
+  }
+
+  .img04 {
+    display: inline-block;
+    width: 24em;
+  }
+
+  .img05 {
+    height: 1em;
+  }
+}
