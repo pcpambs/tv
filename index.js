@@ -1,5 +1,5 @@
-document.querySelector(".a03").addEventListener("click", func01);
-document.querySelector(".a04").addEventListener("click", func02);
+document.querySelector(".a03").addEventListener("mousedown", func01);
+document.querySelector(".a04").addEventListener("mousedown", func02);
 
 function func01() {
   document.querySelectorAll(".a02")[0].setAttribute("class", "a022"); //show more
